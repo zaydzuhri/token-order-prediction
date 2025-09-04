@@ -73,7 +73,7 @@ def listnet_kernel(
         grad_val = tl.where(b_lse_targets == float('inf'), 0.0, grad_val)
         tl.store(logits_ptr + o_v, grad_val, mask=mask)
         
-        # Cross-entropy loss
+        # ListNet loss
         # instead of: b_loss -= tl.sum(p_target * tl.log(p_pred), axis=0)
         b_loss -= tl.sum(p_target * l_val_minus_lse, axis=0)
     
