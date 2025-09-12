@@ -1,6 +1,8 @@
 # token-order-prediction
 From the paper "Predicting the Order of Upcoming Tokens Improves Language Modeling"
 
+ArXiv: https://arxiv.org/abs/2508.19228
+
 This repository contains the code for:
 1. Naive pytorch implementation of ListNet loss.
 2. Optimized triton implementation of fused linear ListNet loss.
