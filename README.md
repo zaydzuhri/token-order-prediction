@@ -13,4 +13,6 @@ For the training code used in the paper, see: https://github.com/zaydzuhri/flame
 
 The Flame repository links to a fork of the flash-linear-attention repository where the actual architectural modifications are, see: https://github.com/zaydzuhri/flash-linear-attention/tree/token-order-prediction
 
+For the star graph synthetic task training code, see: https://github.com/zaydzuhri/Next-Token-Failures
+
 All trained models and checkpoints are on my huggingface: https://huggingface.co/zaydzuhri 
